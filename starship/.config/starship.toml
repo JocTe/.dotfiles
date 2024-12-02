@@ -72,9 +72,9 @@ style = "bold yellow"
 
 [battery]
 disabled = false
-full_symbol = "󱊣"
-charging_symbol = "󱊥"
-discharging_symbol = "󱟥"
+full_symbol = "󱊣 "
+charging_symbol = "󱊥 "
+discharging_symbol = "󱟥 "
 format = "[$symbol$percentage]($style) "
 [[battery.display]]
 threshold = 10

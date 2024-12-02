@@ -1,0 +1,111 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.renderControlCharacters": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "editor.fontSize": 15,
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "window.restoreWindows": "none",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "workbench.iconTheme": "fira-code-material-minimal",
+  "files.hotExit": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "tmp": true,
+    "log": true,
+    ".asset-cache": true,
+    ".bundle": true,
+    ".ipynb_checkpoints": true,
+    ".pytest_cache": true,
+    ".sass-cache": true,
+    ".svn": true,
+    "__pycache__": true,
+    "_site": true,
+    "build": true,
+    "coverage": true,
+    "dist": true,
+    "public/packs": true,
+    "**/.egg-info": true
+  },
+  "files.watcherExclude": {
+    "**/audits/**": true,
+    "**/coverage/**": true,
+    "**/log/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/vendor/**": true
+  },
+  "git.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.pythonPath": "~/.pyenv/shims/python",
+  "python.formatting.provider": "yapf",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.lint": {
+    "rubocop": {
+      "forceExclusion": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.useLanguageServer": true,
+  "solargraph.formatting": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "castwide.solargraph"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "explorer.confirmDragAndDrop": false,
+  "svelte.enable-ts-plugin": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "python.defaultInterpreterPath": "~/.pyenv/versions/3.8.12/envs/lewagon/bin/python",
+  "code-runner.runInTerminal": true,
+  "workbench.sideBar.location": "right",
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  },
+  "liveshare.presence": true,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "nxConsole.showNodeVersionOnStartup": false,
+  "editor.lineHeight": 0,
+  "debug.toolBarLocation": "commandCenter",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
+}
