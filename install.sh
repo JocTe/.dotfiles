@@ -57,10 +57,6 @@ fi
 if [ ! -f "Brewfile" ]; then
     echo -e "\n📦 Creating Brewfile..."
     cat > Brewfile << EOF
-# Taps
-tap "homebrew/core"
-tap "homebrew/bundle"
-tap "homebrew/cask"
 
 # Essential packages
 brew "git"
@@ -69,9 +65,11 @@ brew "curl"
 brew "jq"
 brew "openssl"
 brew "stow"
+brew "cocoapods"
 
 # Development tools
-brew "node"
+brew "node@18"
+brew "sqlboiler"
 brew "go"
 brew "flutter"
 brew "starship"
@@ -90,6 +88,7 @@ brew "tlrc"
 
 # Optional: GUI Applications (uncomment if needed)
 cask "visual-studio-code"
+cask "postman"
 
 
 EOF
@@ -151,7 +150,6 @@ echo -e "\n🐚 Setting up ZSH environment..."
 
 # Create necessary directories
 echo "📁 Creating necessary directories..."
-mkdir -p "$HOME/.config/zsh/.antidote"
 mkdir -p "$HOME/.config/zsh/.zfunctions"
 mkdir -p "$HOME/.local/share"
 mkdir -p "$HOME/.cache"

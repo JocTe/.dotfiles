@@ -1,5 +1,4 @@
-#!/bin/zsh
+emulate -L zsh
 # Display $PATH in more human-friendly format.
 #
-
 echo -e "${PATH//:/\\n}"

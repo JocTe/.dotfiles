@@ -1,10 +1,15 @@
 eval "$(starship init zsh)"
 
 
-# Lazy-load (autoload) Zsh function files from a directory.
 ZFUNCDIR=${ZDOTDIR:-$HOME}/.zfunctions
-fpath=($ZFUNCDIR $fpath)
-autoload -Uz $ZFUNCDIR/*(.:t)
+# Add functions directory to fpath and autoload all functions
+if [[ -d "$ZFUNCDIR" ]]; then
+    # Ensure directory is in fpath
+    fpath=($ZFUNCDIR $fpath)
+
+    # Autoload all functions from the directory
+    autoload -Uz $ZFUNCDIR/*(:t)
+fi
 
 # +---------+
 # | ANTIDOTE |
