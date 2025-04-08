@@ -2,3 +2,5 @@
 
 alias gst='git status'
 alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias cd="z"
+# alias ls="eza --icons=always --color=always --git --no-filesize --no-time --no-user --no-permissions"

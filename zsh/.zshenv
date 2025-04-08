@@ -25,6 +25,7 @@ path=(
   $HOME/{,s}bin(N)
   $HOME/.local/{,s}bin(N)
   $XDG_CONFIG_HOME/bin
+  $HOME/.rbenv/bin:$PATH
   /opt/{homebrew,local}/{,s}bin(N)
   /usr/local/{,s}bin(N)
   $path

@@ -73,10 +73,14 @@ brew "sqlboiler"
 brew "go"
 brew "flutter"
 brew "starship"
-brew "kitty"
 
 # Shell utilities
 brew "zsh"
+brew "zoxide"
+brew "eza"
+brew "fzf"
+brew "zsh-autosuggestions"
+brew "zsh-history-substring-search"
 
 # linter
 brew "golangci-lint"
@@ -88,7 +92,6 @@ brew "tlrc"
 
 # Optional: GUI Applications (uncomment if needed)
 cask "visual-studio-code"
-cask "postman"
 
 
 EOF
